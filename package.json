@@ -1,0 +1,11 @@
+{
+	"name": "atlas",
+	"version": "1.0.0",
+	"repository": "https://github.com/surveyormc/atlas",
+	"author": "kaylendog <actuallyori@gmail.com>",
+	"license": "MIT",
+	"private": true,
+	"workspaces": [
+		"packages/**"
+	]
+}
