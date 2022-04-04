@@ -1,7 +1,10 @@
 {
 	"name": "atlas",
 	"version": "1.0.0",
-	"repository": "https://github.com/surveyormc/atlas",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/surveyormc/atlas.git"
+	},
 	"author": "kaylendog <actuallyori@gmail.com>",
 	"license": "MIT",
 	"private": true,
@@ -22,5 +25,12 @@
 	},
 	"scripts": {
 		"prepare": "husky install"
-	}
+	},
+	"description": "Web-based mapping tool for exported maps from Surveyor.",
+	"bugs": {
+		"url": "https://github.com/surveyormc/atlas/issues"
+	},
+	"homepage": "https://github.com/surveyormc/atlas#readme",
+	"main": "commitlint.config.js",
+	"keywords": []
 }
